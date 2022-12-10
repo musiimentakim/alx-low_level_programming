@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
-/*
+/**
  *main - Entrypoint
  *Description: 'integr status checker'
  *Return: Always 0 (Success)
