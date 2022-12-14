@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include "main.h"
 /**
  * main - Entrypoint
  * Description: 'function that prints _putchar'
