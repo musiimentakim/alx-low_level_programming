@@ -10,3 +10,4 @@ ________________________________________________________________________________
 4	 |4-print_most_numbers.c        |function print_most_numbers(void).
 5        |5-more_numbers.c		|function more_numbers(void)
 6	 |6-print_line.c		|function print_line(int n)
+7	 |7-print_diagonal.c		|function print_diagonal(int n)
