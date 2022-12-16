@@ -6,4 +6,5 @@ Qn no.   |file_name			|Function
 _________________________________________________________________________________
 0        |-isupper.c                    |function _isupper(int c) 
 1	 |1-isdigit.c          		|function _isdigit(int c) .		   
-2	 |2-mul.c          		|function _mul(int a, int b).		    
+2	 |2-mul.c          		|function _mul(int a, int b).		   3        |3-print_numbers.c		   |function print_numbers(void)
+4	 |4-print_most_numbers.c        |function print_most_numbers(void).
