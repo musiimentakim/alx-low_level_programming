@@ -11,3 +11,4 @@ ________________________________________________________________________________
 5        |5-more_numbers.c		|function more_numbers(void)
 6	 |6-print_line.c		|function print_line(int n)
 7	 |7-print_diagonal.c		|function print_diagonal(int n)
+8	 |8-print_square.c		|function print_square(int size)
