@@ -15,3 +15,4 @@ ________________________________________________________________________________
 9    	 |9-fizz_buzz.c			|fizz buzz problem
 10	 |10-print_triangle.c		|function prints a triangle
 11       |100-prime_factor.c		|program distinguishes prime from composite 	    | 			           |numbers.
+12	 |101-print_number.c		|function print_number(int n)
