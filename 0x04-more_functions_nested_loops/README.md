@@ -13,3 +13,4 @@ ________________________________________________________________________________
 7	 |7-print_diagonal.c		|function print_diagonal(int n)
 8	 |8-print_square.c		|function print_square(int size
 9    	 |9-fizz_buzz.c			|fizz buzz problem
+10	 |10-print_triangle.c		|function prints a triangle
