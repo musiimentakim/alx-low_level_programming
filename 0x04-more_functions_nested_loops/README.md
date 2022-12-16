@@ -5,5 +5,5 @@ Directory contains scripts on more C functions , nested loops and header file fo
 Qn no.   |file_name			|Function
 _________________________________________________________________________________
 0        |-isupper.c                    |function _isupper(int c) 
-_________________________________________________________________________________
-1	 |1-isdigit.c          		|function _isdigit(int c) .
+1	 |1-isdigit.c          		|function _isdigit(int c) .		   
+2	 |2-mul.c          		|function _mul(int a, int b).		    
