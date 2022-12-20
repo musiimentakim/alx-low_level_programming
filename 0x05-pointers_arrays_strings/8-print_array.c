@@ -16,7 +16,15 @@ void print_array(int *a, int n)
 	{
 		for (iterator = 0 ; iterator < n; iterator++)
 		{
-			printf("%d, ",a[iterator]);
+			/*exclude comma and space for last character*/
+			if (iterator != (n - 1))
+			{
+				printf("%d, ", a[iterator]);
+			}
+			else
+			{
+				printf("%d", a[iterator]);
+			}
 		}
 	}
 	printf("\n");
