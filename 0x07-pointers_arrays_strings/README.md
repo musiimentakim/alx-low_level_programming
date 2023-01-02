@@ -8,4 +8,7 @@ ________________________________________________________________________________
 
 2	|2-strchr.c		|function that locates a character in a string.
 
-3	|3-strspn.c		|function that gets the length of a prefix substrin
+3	|3-strspn.c		|function that gets the length of a prefix substri
+
+4	|4-strpbrk.c		|function that searches a string for any of a set o				    f bytes
+
