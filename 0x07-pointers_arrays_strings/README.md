@@ -12,3 +12,5 @@ ________________________________________________________________________________
 
 4	|4-strpbrk.c		|function that searches a string for any of a set o				    f bytes
 5	|5-strstr.c		|function that locates a substring.
+
+6	|7-print_chessboard.c	|function that prints the chessboard.
