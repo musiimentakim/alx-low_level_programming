@@ -14,3 +14,6 @@ ________________________________________________________________________________
 5	|5-strstr.c		|function that locates a substring.
 
 6	|7-print_chessboard.c	|function that prints the chessboard.
+
+7	|8-print_diagsums.c	|function that prints the sum of the two diagonals 				    of a square matrix of integers.
+
