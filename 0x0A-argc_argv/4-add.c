@@ -10,17 +10,29 @@
 
 int main(int argc, char **argv)
 {
-	int i = 1, a = atoi(argv[i]), b = atoi(argv[i + 1]), result;
+	int i = 1, a, result = 0;
 
-	if (argc < 2)
+	if (argc >= 2)
 	{
-		printf("Error\n");
-		return (1);
+		while (i < argc)
+		{
+			a = atoi(argv[i]);
+			if (a >= 0 && a <= 1000)
+			{
+				result += a;
+				i++;
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		printf("%d\n", result);
 	}
 	else
 	{
-		result = a * b;
-		printf("%d\n", result);
-		return (0);
+		printf("0\n");
 	}
+	return (0);
 }
