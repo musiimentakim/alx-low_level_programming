@@ -19,13 +19,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	/* when ptr points to null otherwise allocate memory for type ptr*/
-
+	ptr = malloc(sizeof(dog_t));
 	if (ptr == NULL)
 	{
 		return (NULL);
 	}
 
-	ptr = malloc(sizeof(dog_t));
 	/*allocate memory for name and owner in struct ptr*/
 
 	ptr->name = malloc(sizeof(char) * (_strlen(name) + 1));
@@ -40,8 +39,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	ptr->name = _strcopy(ptr->name, name);
-	ptr->owner = _strcopy(ptr->owner, name);
+	ptr->name = _strcpy(ptr->name, name);
+	ptr->owner = _strcpy(ptr->owner, name);
 	ptr->age = age;
 
 	return (ptr);
